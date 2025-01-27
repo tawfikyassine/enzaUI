@@ -1,0 +1,35 @@
+:root {
+  --primary-color: #007bff; /* Primary blue */
+  --success-color: #28a745; /* Green */
+  --dark-color: #343a40; /* Dark */
+}
+
+.enza-primary-button {
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.enza-primary-button:hover {
+  background-color: var(--dark-color);
+}
+
+.enza-success-button {
+  background-color: var(--success-color);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.enza-success-button:hover {
+  background-color: var(--dark-color);
+}
