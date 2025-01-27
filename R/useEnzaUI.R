@@ -6,6 +6,6 @@
 #' @export
 useEnzaUI <- function() {
   shiny::tags$head(
-    shiny::tags$link(rel = "stylesheet", type = "text/css", href = "www/enza-styles.css")
+    shiny::tags$link(rel = "stylesheet", type = "text/css", href = system.file("css", "enza-styles.css", package = "enzaUI"))
   )
 }
